@@ -1,0 +1,747 @@
+
+Action: file_editor create /app/github-export/vanilla/index.html --file-text "<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <meta name=\"description\" content=\"Canelli Construction - Charlotte's premier custom home builder. Custom homes, commercial construction, and renovations built with precision and transparency.\">
+    <meta name=\"keywords\" content=\"Custom Home Builder Charlotte NC, Charlotte Construction Company, Luxury Home Builder, Commercial Construction Charlotte\">
+    <title>Canelli Construction | Charlotte's Premier Builder</title>
+    
+    <!-- Fonts -->
+    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
+    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
+    <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap\" rel=\"stylesheet\">
+    <link href=\"https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,200,300,400,500,700,800,900&display=swap\" rel=\"stylesheet\">
+    
+    <!-- Lucide Icons -->
+    <script src=\"https://unpkg.com/lucide@latest/dist/umd/lucide.min.js\"></script>
+    
+    <link rel=\"stylesheet\" href=\"styles.css\">
+</head>
+<body>
+    <!-- Header -->
+    <header id=\"header\" class=\"header\">
+        <div class=\"container header-content\">
+            <a href=\"#hero\" class=\"logo\">
+                <span class=\"logo-text\">Canelli</span>
+                <span class=\"logo-dot\">.</span>
+            </a>
+            
+            <nav class=\"nav-desktop\">
+                <a href=\"#about\" class=\"nav-link\">About</a>
+                <a href=\"#services\" class=\"nav-link\">Services</a>
+                <a href=\"#portfolio\" class=\"nav-link\">Portfolio</a>
+                <a href=\"#process\" class=\"nav-link\">Process</a>
+                <a href=\"#contact\" class=\"nav-link\">Contact</a>
+            </nav>
+            
+            <div class=\"header-cta\">
+                <a href=\"tel:+19809498800\" class=\"phone-link\">980-949-8800</a>
+                <a href=\"#contact\" class=\"btn btn-gold\">Get a Quote</a>
+            </div>
+            
+            <button class=\"mobile-menu-btn\" id=\"mobileMenuBtn\" aria-label=\"Toggle menu\">
+                <i data-lucide=\"menu\" class=\"menu-icon\"></i>
+                <i data-lucide=\"x\" class=\"close-icon hidden\"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class=\"mobile-menu hidden\" id=\"mobileMenu\">
+            <nav class=\"mobile-nav\">
+                <a href=\"#about\" class=\"mobile-nav-link\">About</a>
+                <a href=\"#services\" class=\"mobile-nav-link\">Services</a>
+                <a href=\"#portfolio\" class=\"mobile-nav-link\">Portfolio</a>
+                <a href=\"#process\" class=\"mobile-nav-link\">Process</a>
+                <a href=\"#contact\" class=\"mobile-nav-link\">Contact</a>
+                <a href=\"#contact\" class=\"btn btn-gold mobile-cta\">Get a Quote</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id=\"hero\" class=\"hero\">
+            <div class=\"hero-bg\" style=\"background-image: url('https://images.unsplash.com/photo-1774685110718-c5b4fe026144?w=1920');\"></div>
+            <div class=\"hero-overlay\"></div>
+            <div class=\"container hero-content\">
+                <p class=\"overline animate-fade-up\">Charlotte's Premier Builder</p>
+                <h1 class=\"hero-title animate-fade-up delay-1\">Building Charlotte's Finest Homes & Spaces</h1>
+                <p class=\"hero-subtitle animate-fade-up delay-2\">Custom homes, commercial construction, and renovations built with precision and transparency.</p>
+                
+                <div class=\"hero-ctas animate-fade-up delay-3\">
+                    <a href=\"#contact\" class=\"btn btn-gold btn-lg\">
+                        Get a Free Quote
+                        <i data-lucide=\"arrow-right\"></i>
+                    </a>
+                    <a href=\"#portfolio\" class=\"btn btn-ghost btn-lg\">View Portfolio</a>
+                </div>
+                
+                <div class=\"hero-trust animate-fade-up delay-4\">
+                    <span class=\"trust-item\">
+                        <i data-lucide=\"award\"></i>
+                        20+ Years Experience
+                    </span>
+                    <span class=\"trust-item\">
+                        <i data-lucide=\"pen-tool\"></i>
+                        Full-Service Design & Build
+                    </span>
+                    <span class=\"trust-item\">
+                        <i data-lucide=\"dollar-sign\"></i>
+                        Transparent Pricing
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id=\"about\" class=\"section about\">
+            <div class=\"container\">
+                <div class=\"about-grid\">
+                    <div class=\"about-image-wrapper\">
+                        <img src=\"https://images.unsplash.com/photo-1772442198624-4fc4d7281e89?w=800\" alt=\"Blueprint review\" class=\"about-image\">
+                        <div class=\"experience-badge\">
+                            <span class=\"experience-number\">20+</span>
+                            <span class=\"experience-text\">Years Excellence</span>
+                        </div>
+                    </div>
+                    
+                    <div class=\"about-content\">
+                        <p class=\"overline\">Our Story</p>
+                        <h2 class=\"section-title\">Crafting Excellence Since 2004</h2>
+                        <p class=\"about-text\">With over two decades of experience spanning Europe and the United States, Canelli Construction has built a reputation for uncompromising quality and transparent partnerships.</p>
+                        <p class=\"about-text\">We believe every project tells a story. Our family-focused, client-first approach means your vision becomes our mission. No upselling, no hidden agendas—just exceptional craftsmanship delivered with integrity.</p>
+                        
+                        <div class=\"about-features\">
+                            <div class=\"about-feature\">
+                                <i data-lucide=\"check-circle\"></i>
+                                <span>Transparent Communication</span>
+                            </div>
+                            <div class=\"about-feature\">
+                                <i data-lucide=\"check-circle\"></i>
+                                <span>Premium Materials</span>
+                            </div>
+                            <div class=\"about-feature\">
+                                <i data-lucide=\"check-circle\"></i>
+                                <span>On-Time Delivery</span>
+                            </div>
+                            <div class=\"about-feature\">
+                                <i data-lucide=\"check-circle\"></i>
+                                <span>Client-First Approach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id=\"services\" class=\"section services\">
+            <div class=\"container\">
+                <div class=\"section-header\">
+                    <p class=\"overline\">What We Build</p>
+                    <h2 class=\"section-title\">Comprehensive Construction Services</h2>
+                    <p class=\"section-subtitle\">From concept to completion, we deliver excellence across every project type.</p>
+                </div>
+                
+                <div class=\"services-grid\">
+                    <div class=\"service-card\">
+                        <div class=\"service-icon\">
+                            <i data-lucide=\"home\"></i>
+                        </div>
+                        <h3 class=\"service-title\">Custom Home Building</h3>
+                        <p class=\"service-desc\">Bespoke luxury homes designed and built to your exact specifications, from foundation to finishing touches.</p>
+                        <a href=\"#contact\" class=\"service-link\">
+                            Get Quote <i data-lucide=\"chevron-right\"></i>
+                        </a>
+                    </div>
+                    
+                    <div class=\"service-card\">
+                        <div class=\"service-icon\">
+                            <i data-lucide=\"building-2\"></i>
+                        </div>
+                        <h3 class=\"service-title\">Turnkey Homes</h3>
+                        <p class=\"service-desc\">Move-in ready homes built on your lot with premium finishes and stress-free project management.</p>
+                        <a href=\"#contact\" class=\"service-link\">
+                            Get Quote <i data-lucide=\"chevron-right\"></i>
+                        </a>
+                    </div>
+                    
+                    <div class=\"service-card\">
+                        <div class=\"service-icon\">
+                            <i data-lucide=\"building-2\"></i>
+                        </div>
+                        <h3 class=\"service-title\">Commercial Construction</h3>
+                        <p class=\"service-desc\">Professional commercial spaces that reflect your brand and meet your business needs.</p>
+                        <a href=\"#contact\" class=\"service-link\">
+                            Get Quote <i data-lucide=\"chevron-right\"></i>
+                        </a>
+                    </div>
+                    
+                    <div class=\"service-card\">
+                        <div class=\"service-icon\">
+                            <i data-lucide=\"hammer\"></i>
+                        </div>
+                        <h3 class=\"service-title\">Remodeling</h3>
+                        <p class=\"service-desc\">Transform your existing space with expert renovations that blend modern design with timeless craftsmanship.</p>
+                        <a href=\"#contact\" class=\"service-link\">
+                            Get Quote <i data-lucide=\"chevron-right\"></i>
+                        </a>
+                    </div>
+                    
+                    <div class=\"service-card\">
+                        <div class=\"service-icon\">
+                            <i data-lucide=\"home\"></i>
+                        </div>
+                        <h3 class=\"service-title\">ADU Construction</h3>
+                        <p class=\"service-desc\">Accessory dwelling units that maximize your property's potential and value.</p>
+                        <a href=\"#contact\" class=\"service-link\">
+                            Get Quote <i data-lucide=\"chevron-right\"></i>
+                        </a>
+                    </div>
+                    
+                    <div class=\"service-card\">
+                        <div class=\"service-icon\">
+                            <i data-lucide=\"plus\"></i>
+                        </div>
+                        <h3 class=\"service-title\">Home Additions</h3>
+                        <p class=\"service-desc\">Seamlessly expand your living space with additions that complement your home's architecture.</p>
+                        <a href=\"#contact\" class=\"service-link\">
+                            Get Quote <i data-lucide=\"chevron-right\"></i>
+                        </a>
+                    </div>
+                    
+                    <div class=\"service-card\">
+                        <div class=\"service-icon\">
+                            <i data-lucide=\"building-2\"></i>
+                        </div>
+                        <h3 class=\"service-title\">Residential Development</h3>
+                        <p class=\"service-desc\">End-to-end development services for multi-unit residential projects.</p>
+                        <a href=\"#contact\" class=\"service-link\">
+                            Get Quote <i data-lucide=\"chevron-right\"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id=\"portfolio\" class=\"section portfolio\">
+            <div class=\"container\">
+                <div class=\"section-header\">
+                    <p class=\"overline\">Our Work</p>
+                    <h2 class=\"section-title\">Featured Projects</h2>
+                    <p class=\"section-subtitle\">Explore our portfolio of custom homes, commercial builds, and renovations.</p>
+                </div>
+                
+                <div class=\"portfolio-tabs\">
+                    <button class=\"tab-btn active\" data-filter=\"all\">All Projects</button>
+                    <button class=\"tab-btn\" data-filter=\"residential\">Residential</button>
+                    <button class=\"tab-btn\" data-filter=\"commercial\">Commercial</button>
+                    <button class=\"tab-btn\" data-filter=\"adu\">ADU</button>
+                    <button class=\"tab-btn\" data-filter=\"remodel\">Remodel</button>
+                </div>
+                
+                <div class=\"portfolio-grid\" id=\"portfolioGrid\">
+                    <div class=\"portfolio-card\" data-category=\"residential\">
+                        <img src=\"https://images.unsplash.com/photo-1622015663319-e97e697503ee?w=800\" alt=\"Modern Lakefront Estate\" class=\"portfolio-image\">
+                        <div class=\"portfolio-overlay\">
+                            <p class=\"portfolio-category\">Residential</p>
+                            <h3 class=\"portfolio-title\">Modern Lakefront Estate</h3>
+                            <p class=\"portfolio-location\">Lake Norman, NC</p>
+                        </div>
+                    </div>
+                    
+                    <div class=\"portfolio-card\" data-category=\"residential\">
+                        <img src=\"https://images.unsplash.com/photo-1760072513442-9872656c1b07?w=800\" alt=\"Contemporary Urban Residence\" class=\"portfolio-image\">
+                        <div class=\"portfolio-overlay\">
+                            <p class=\"portfolio-category\">Residential</p>
+                            <h3 class=\"portfolio-title\">Contemporary Urban Residence</h3>
+                            <p class=\"portfolio-location\">Myers Park, Charlotte</p>
+                        </div>
+                    </div>
+                    
+                    <div class=\"portfolio-card\" data-category=\"adu\">
+                        <img src=\"https://images.unsplash.com/photo-1757262798620-c2cc40cfb440?w=800\" alt=\"Luxury ADU Suite\" class=\"portfolio-image\">
+                        <div class=\"portfolio-overlay\">
+                            <p class=\"portfolio-category\">ADU</p>
+                            <h3 class=\"portfolio-title\">Luxury ADU Suite</h3>
+                            <p class=\"portfolio-location\">SouthPark, Charlotte</p>
+                        </div>
+                    </div>
+                    
+                    <div class=\"portfolio-card\" data-category=\"commercial\">
+                        <img src=\"https://images.unsplash.com/photo-1766603636700-e9d80473f40f?w=800\" alt=\"Boutique Office Building\" class=\"portfolio-image\">
+                        <div class=\"portfolio-overlay\">
+                            <p class=\"portfolio-category\">Commercial</p>
+                            <h3 class=\"portfolio-title\">Boutique Office Building</h3>
+                            <p class=\"portfolio-location\">South End, Charlotte</p>
+                        </div>
+                    </div>
+                    
+                    <div class=\"portfolio-card\" data-category=\"remodel\">
+                        <img src=\"https://images.unsplash.com/photo-1774685110718-c5b4fe026144?w=800\" alt=\"Historic Home Renovation\" class=\"portfolio-image\">
+                        <div class=\"portfolio-overlay\">
+                            <p class=\"portfolio-category\">Remodel</p>
+                            <h3 class=\"portfolio-title\">Historic Home Renovation</h3>
+                            <p class=\"portfolio-location\">Dilworth, Charlotte</p>
+                        </div>
+                    </div>
+                    
+                    <div class=\"portfolio-card\" data-category=\"residential\">
+                        <img src=\"https://images.pexels.com/photos/4458205/pexels-photo-4458205.jpeg?w=800\" alt=\"Turnkey Family Home\" class=\"portfolio-image\">
+                        <div class=\"portfolio-overlay\">
+                            <p class=\"portfolio-category\">Residential</p>
+                            <h3 class=\"portfolio-title\">Turnkey Family Home</h3>
+                            <p class=\"portfolio-location\">Ballantyne, Charlotte</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id=\"why-us\" class=\"section why-us\">
+            <div class=\"container\">
+                <div class=\"section-header\">
+                    <p class=\"overline\">Why Canelli</p>
+                    <h2 class=\"section-title\">The Canelli Difference</h2>
+                </div>
+                
+                <div class=\"why-grid\">
+                    <div class=\"why-card\">
+                        <div class=\"why-icon\">
+                            <i data-lucide=\"award\"></i>
+                        </div>
+                        <h3 class=\"why-title\">20+ Years Experience</h3>
+                        <p class=\"why-desc\">Two decades of excellence in the US & Europe</p>
+                    </div>
+                    
+                    <div class=\"why-card\">
+                        <div class=\"why-icon\">
+                            <i data-lucide=\"pen-tool\"></i>
+                        </div>
+                        <h3 class=\"why-title\">Full-Service</h3>
+                        <p class=\"why-desc\">Design → Permits → Build, all under one roof</p>
+                    </div>
+                    
+                    <div class=\"why-card\">
+                        <div class=\"why-icon\">
+                            <i data-lucide=\"dollar-sign\"></i>
+                        </div>
+                        <h3 class=\"why-title\">Transparent Pricing</h3>
+                        <p class=\"why-desc\">No hidden costs, no surprises</p>
+                    </div>
+                    
+                    <div class=\"why-card\">
+                        <div class=\"why-icon\">
+                            <i data-lucide=\"shield\"></i>
+                        </div>
+                        <h3 class=\"why-title\">High-End Craftsmanship</h3>
+                        <p class=\"why-desc\">Premium materials and meticulous attention to detail</p>
+                    </div>
+                    
+                    <div class=\"why-card\">
+                        <div class=\"why-icon\">
+                            <i data-lucide=\"users\"></i>
+                        </div>
+                        <h3 class=\"why-title\">Client-Focused</h3>
+                        <p class=\"why-desc\">Your vision drives every decision we make</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id=\"process\" class=\"section process\">
+            <div class=\"container\">
+                <div class=\"section-header\">
+                    <p class=\"overline\">Our Process</p>
+                    <h2 class=\"section-title\">How We Work</h2>
+                    <p class=\"section-subtitle\">A streamlined, transparent process from initial consultation to final walkthrough.</p>
+                </div>
+                
+                <div class=\"process-grid\">
+                    <div class=\"process-step\">
+                        <span class=\"process-number\">01</span>
+                        <h3 class=\"process-title\">Suitability</h3>
+                        <p class=\"process-desc\">We assess your project requirements, budget, and timeline to ensure we're the right fit.</p>
+                    </div>
+                    
+                    <div class=\"process-step\">
+                        <span class=\"process-number\">02</span>
+                        <h3 class=\"process-title\">Design</h3>
+                        <p class=\"process-desc\">Collaborative design process to bring your vision to life with detailed plans and 3D renderings.</p>
+                    </div>
+                    
+                    <div class=\"process-step\">
+                        <span class=\"process-number\">03</span>
+                        <h3 class=\"process-title\">Permits</h3>
+                        <p class=\"process-desc\">We handle all permits and approvals, navigating regulations so you don't have to.</p>
+                    </div>
+                    
+                    <div class=\"process-step\">
+                        <span class=\"process-number\">04</span>
+                        <h3 class=\"process-title\">Build</h3>
+                        <p class=\"process-desc\">Expert construction with regular updates, quality checkpoints, and on-time delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Area Section -->
+        <section id=\"service-area\" class=\"section service-area\">
+            <div class=\"service-area-bg\" style=\"background-image: url('https://images.unsplash.com/photo-1582555645330-9fa5f195e1ca?w=1200');\"></div>
+            <div class=\"service-area-overlay\"></div>
+            <div class=\"container service-area-content\">
+                <p class=\"overline\">Service Area</p>
+                <h2 class=\"section-title\">Proudly Serving Charlotte & Beyond</h2>
+                <p class=\"service-area-text\">We serve the greater Charlotte metropolitan area and surrounding communities in North Carolina.</p>
+                
+                <div class=\"service-areas-list\">
+                    <span class=\"area-tag\">Charlotte</span>
+                    <span class=\"area-tag\">Matthews</span>
+                    <span class=\"area-tag\">Huntersville</span>
+                    <span class=\"area-tag\">Belmont</span>
+                    <span class=\"area-tag\">Concord</span>
+                    <span class=\"area-tag\">Lake Norman</span>
+                    <span class=\"area-tag\">SouthPark</span>
+                    <span class=\"area-tag\">Myers Park</span>
+                    <span class=\"area-tag\">Ballantyne</span>
+                    <span class=\"area-tag\">Waxhaw</span>
+                </div>
+                
+                <a href=\"#contact\" class=\"btn btn-gold btn-lg\">
+                    <i data-lucide=\"map-pin\"></i>
+                    Contact for Service
+                </a>
+            </div>
+        </section>
+
+        <!-- Feature Section -->
+        <section class=\"section features\">
+            <div class=\"container\">
+                <div class=\"features-grid\">
+                    <div class=\"feature-card\">
+                        <p class=\"overline\">Stress-Free Building</p>
+                        <h3 class=\"feature-title\">Turnkey Homes</h3>
+                        <p class=\"feature-desc\">Dream of a custom home without the hassle? Our turnkey process handles everything—from design and permits to construction and finishing—so you can focus on the excitement of your new home.</p>
+                        <a href=\"#contact\" class=\"btn btn-gold\">
+                            Learn More <i data-lucide=\"arrow-right\"></i>
+                        </a>
+                    </div>
+                    
+                    <div class=\"feature-card\">
+                        <p class=\"overline\">Maximize Your Property</p>
+                        <h3 class=\"feature-title\">ADU Construction</h3>
+                        <p class=\"feature-desc\">Accessory Dwelling Units are the fastest-growing housing trend. Add rental income, guest space, or a home office with a premium ADU built to match your property's aesthetic.</p>
+                        <a href=\"#contact\" class=\"btn btn-gold\">
+                            Learn More <i data-lucide=\"arrow-right\"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id=\"testimonials\" class=\"section testimonials\">
+            <div class=\"container\">
+                <div class=\"section-header\">
+                    <p class=\"overline\">Testimonials</p>
+                    <h2 class=\"section-title\">Client Stories</h2>
+                </div>
+                
+                <div class=\"testimonials-grid\">
+                    <div class=\"testimonial-card\">
+                        <div class=\"testimonial-stars\">
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                        </div>
+                        <p class=\"testimonial-text\">\"Canelli Construction exceeded every expectation. Our lakefront home is a masterpiece—their attention to detail and communication throughout was exceptional.\"</p>
+                        <div class=\"testimonial-author\">
+                            <span class=\"author-name\">David & Sarah Mitchell</span>
+                            <span class=\"author-project\">Custom Home, Lake Norman</span>
+                        </div>
+                    </div>
+                    
+                    <div class=\"testimonial-card\">
+                        <div class=\"testimonial-stars\">
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                        </div>
+                        <p class=\"testimonial-text\">\"Professional, transparent, and delivered on time. Our office building has received countless compliments. A true partner in our vision.\"</p>
+                        <div class=\"testimonial-author\">
+                            <span class=\"author-name\">Michael Chen</span>
+                            <span class=\"author-project\">Commercial Build, South End</span>
+                        </div>
+                    </div>
+                    
+                    <div class=\"testimonial-card\">
+                        <div class=\"testimonial-stars\">
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                        </div>
+                        <p class=\"testimonial-text\">\"They transformed our 1920s home into a modern sanctuary while preserving its character. The craftsmanship is simply outstanding.\"</p>
+                        <div class=\"testimonial-author\">
+                            <span class=\"author-name\">Jennifer & Robert Walsh</span>
+                            <span class=\"author-project\">Home Renovation, Dilworth</span>
+                        </div>
+                    </div>
+                    
+                    <div class=\"testimonial-card\">
+                        <div class=\"testimonial-stars\">
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                            <i data-lucide=\"star\" class=\"star-filled\"></i>
+                        </div>
+                        <p class=\"testimonial-text\">\"Our ADU was completed ahead of schedule and the quality is indistinguishable from the main house. Highly recommend!\"</p>
+                        <div class=\"testimonial-author\">
+                            <span class=\"author-name\">The Morrison Family</span>
+                            <span class=\"author-project\">ADU Construction, Myers Park</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estimator Section -->
+        <section id=\"estimator\" class=\"section estimator\">
+            <div class=\"container\">
+                <div class=\"estimator-grid\">
+                    <div class=\"estimator-info\">
+                        <p class=\"overline\">Planning Tool</p>
+                        <h2 class=\"section-title\">New Construction Calculator</h2>
+                        <p class=\"estimator-text\">Get a rough estimate for your project based on size and type. This tool provides ballpark figures to help with initial planning.</p>
+                        <div class=\"estimator-feature\">
+                            <i data-lucide=\"calculator\"></i>
+                            <span>Instant estimates • No obligation</span>
+                        </div>
+                    </div>
+                    
+                    <div class=\"estimator-form-wrapper\">
+                        <form id=\"estimatorForm\" class=\"estimator-form\">
+                            <div class=\"form-group\">
+                                <label for=\"projectType\">Project Type</label>
+                                <select id=\"projectType\" name=\"projectType\" required>
+                                    <option value=\"custom_home\">Custom Home</option>
+                                    <option value=\"turnkey\">Turnkey Home</option>
+                                    <option value=\"remodel\">Remodel</option>
+                                    <option value=\"adu\">ADU</option>
+                                    <option value=\"addition\">Home Addition</option>
+                                    <option value=\"commercial\">Commercial</option>
+                                </select>
+                            </div>
+                            
+                            <div class=\"form-group\">
+                                <label for=\"squareFeet\">Square Footage: <span id=\"sqftValue\" class=\"gold-text\">2,500 sq ft</span></label>
+                                <input type=\"range\" id=\"squareFeet\" name=\"squareFeet\" min=\"500\" max=\"10000\" step=\"100\" value=\"2500\">
+                            </div>
+                            
+                            <div class=\"form-group\">
+                                <label for=\"finishLevel\">Finish Level</label>
+                                <select id=\"finishLevel\" name=\"finishLevel\" required>
+                                    <option value=\"standard\">Standard</option>
+                                    <option value=\"premium\" selected>Premium</option>
+                                    <option value=\"luxury\">Luxury</option>
+                                </select>
+                            </div>
+                            
+                            <button type=\"submit\" class=\"btn btn-gold btn-full\">Calculate Estimate</button>
+                        </form>
+                        
+                        <div id=\"estimateResult\" class=\"estimate-result hidden\">
+                            <p class=\"result-label\">Estimated Range</p>
+                            <p class=\"result-value\" id=\"resultValue\">$500,000 - $750,000</p>
+                            <p class=\"result-disclaimer\">This is a rough estimate only. Actual costs may vary based on specific project requirements, site conditions, materials, and current market conditions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class=\"section cta-section\">
+            <div class=\"container cta-content\">
+                <h2 class=\"cta-title\">From Vision to Reality</h2>
+                <p class=\"cta-subtitle\">Let's build something exceptional together. Whether it's a custom home, commercial space, or renovation—we're ready when you are.</p>
+                <div class=\"cta-buttons\">
+                    <a href=\"#contact\" class=\"btn btn-gold btn-lg\">
+                        Get a Free Quote <i data-lucide=\"arrow-right\"></i>
+                    </a>
+                    <a href=\"tel:+19809498800\" class=\"btn btn-ghost btn-lg\">
+                        <i data-lucide=\"phone\"></i>
+                        980-949-8800
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id=\"contact\" class=\"section contact\">
+            <div class=\"container\">
+                <div class=\"contact-grid\">
+                    <div class=\"contact-info\">
+                        <p class=\"overline\">Get In Touch</p>
+                        <h2 class=\"section-title\">Let's Build Together</h2>
+                        <p class=\"contact-text\">Ready to start your project? Fill out the form or reach out directly. We respond to all inquiries within 24 hours.</p>
+                        
+                        <div class=\"contact-methods\">
+                            <a href=\"tel:+19809498800\" class=\"contact-method\">
+                                <div class=\"contact-icon\">
+                                    <i data-lucide=\"phone\"></i>
+                                </div>
+                                <div class=\"contact-details\">
+                                    <span class=\"contact-label\">Call Us</span>
+                                    <span class=\"contact-value\">980-949-8800</span>
+                                </div>
+                            </a>
+                            
+                            <a href=\"mailto:info@canelliconstruction.com\" class=\"contact-method\">
+                                <div class=\"contact-icon\">
+                                    <i data-lucide=\"mail\"></i>
+                                </div>
+                                <div class=\"contact-details\">
+                                    <span class=\"contact-label\">Email Us</span>
+                                    <span class=\"contact-value\">info@canelliconstruction.com</span>
+                                </div>
+                            </a>
+                            
+                            <div class=\"contact-method\">
+                                <div class=\"contact-icon\">
+                                    <i data-lucide=\"map-pin\"></i>
+                                </div>
+                                <div class=\"contact-details\">
+                                    <span class=\"contact-label\">Location</span>
+                                    <span class=\"contact-value\">Charlotte, NC</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class=\"map-wrapper\">
+                            <iframe 
+                                src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208477.3910823091!2d-80.97608799999999!3d35.2270869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0x884650e6bf43d164!2sCharlotte%2C%20NC!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus\"
+                                width=\"100%\" 
+                                height=\"250\" 
+                                style=\"border:0;\" 
+                                allowfullscreen=\"\" 
+                                loading=\"lazy\" 
+                                referrerpolicy=\"no-referrer-when-downgrade\"
+                                class=\"map-iframe\">
+                            </iframe>
+                        </div>
+                    </div>
+                    
+                    <div class=\"contact-form-wrapper\">
+                        <h3 class=\"form-title\">Request a Free Quote</h3>
+                        <p class=\"form-subtitle\">Tell us about your project and we'll get back to you within 24 hours.</p>
+                        
+                        <form id=\"contactForm\" class=\"contact-form\">
+                            <div class=\"form-row\">
+                                <div class=\"form-group\">
+                                    <label for=\"name\">Name</label>
+                                    <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Your Name\" required>
+                                </div>
+                                <div class=\"form-group\">
+                                    <label for=\"phone\">Phone</label>
+                                    <input type=\"tel\" id=\"phone\" name=\"phone\" placeholder=\"(704) 555-1234\" required>
+                                </div>
+                            </div>
+                            
+                            <div class=\"form-group\">
+                                <label for=\"email\">Email</label>
+                                <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"you@email.com\" required>
+                            </div>
+                            
+                            <div class=\"form-group\">
+                                <label for=\"contactProjectType\">Project Type</label>
+                                <select id=\"contactProjectType\" name=\"projectType\" required>
+                                    <option value=\"\">Select project type</option>
+                                    <option value=\"custom_home\">Custom Home</option>
+                                    <option value=\"turnkey\">Turnkey Home</option>
+                                    <option value=\"commercial\">Commercial</option>
+                                    <option value=\"remodel\">Remodeling</option>
+                                    <option value=\"adu\">ADU Construction</option>
+                                    <option value=\"addition\">Home Addition</option>
+                                    <option value=\"other\">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class=\"form-group\">
+                                <label for=\"message\">Message</label>
+                                <textarea id=\"message\" name=\"message\" rows=\"5\" placeholder=\"Tell us about your project...\" required></textarea>
+                            </div>
+                            
+                            <button type=\"submit\" class=\"btn btn-gold btn-full\">Send Message</button>
+                        </form>
+                        
+                        <div id=\"formSuccess\" class=\"form-success hidden\">
+                            <i data-lucide=\"check-circle\"></i>
+                            <p>Thank you! We'll be in touch shortly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class=\"footer\">
+        <div class=\"container\">
+            <div class=\"footer-grid\">
+                <div class=\"footer-brand\">
+                    <div class=\"footer-logo\">
+                        <span class=\"logo-text\">Canelli</span>
+                        <span class=\"logo-highlight\">Construction</span>
+                    </div>
+                    <p class=\"footer-desc\">Premium construction services in Charlotte, NC. Custom homes, commercial builds, and renovations delivered with excellence and transparency.</p>
+                    <a href=\"tel:+19809498800\" class=\"footer-phone\">980-949-8800</a>
+                </div>
+                
+                <div class=\"footer-links\">
+                    <h4 class=\"footer-title\">Services</h4>
+                    <ul>
+                        <li><a href=\"#services\">Custom Homes</a></li>
+                        <li><a href=\"#services\">Turnkey Homes</a></li>
+                        <li><a href=\"#services\">Commercial</a></li>
+                        <li><a href=\"#services\">Remodeling</a></li>
+                        <li><a href=\"#services\">ADU Construction</a></li>
+                        <li><a href=\"#services\">Home Additions</a></li>
+                    </ul>
+                </div>
+                
+                <div class=\"footer-links\">
+                    <h4 class=\"footer-title\">Company</h4>
+                    <ul>
+                        <li><a href=\"#about\">About</a></li>
+                        <li><a href=\"#portfolio\">Portfolio</a></li>
+                        <li><a href=\"#process\">Process</a></li>
+                        <li><a href=\"#testimonials\">Testimonials</a></li>
+                        <li><a href=\"#contact\">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class=\"footer-bottom\">
+                <p class=\"copyright\">&copy; <span id=\"currentYear\"></span> Canelli Construction. All rights reserved.</p>
+                <p class=\"footer-location\">Charlotte, NC • Licensed & Insured</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src=\"script.js\"></script>
+</body>
+</html>
+"
+Observation: Create successful: /app/github-export/vanilla/index.html
